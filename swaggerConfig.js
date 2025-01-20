@@ -10,11 +10,11 @@ const options = {
     },
     servers: [
       {
-        url: "http://localhost:{port}",
+        url: "https://server-uas.vercel.app/",
         description: "Development server",
         variables: {
           port: {
-            default: "6969",
+            default: "3000",
           },
         },
       },
